@@ -364,7 +364,7 @@ const CustomerDashboard = () => {
       <ReviewForm onSuccess={() => {
         setShowReviewForm(false);
         // Refresh reviews
-        window.location.reload(); // Simple way, or you can add state management
+        window.location.reload(); // You can add state management
       }} />
     </div>
   )}
