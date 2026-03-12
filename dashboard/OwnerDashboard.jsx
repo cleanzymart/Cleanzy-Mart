@@ -431,7 +431,7 @@ const OwnerDashboard = () => {
                 <p className="text-sm font-medium">Update Pricing</p>
               </button>
 
-              {/* Invite Owner Button */}
+              {/* Invite Admin Button */}
               <button
                 onClick={() => handleQuickAction('/owner/invite')}
                 className="p-4 border border-gray-200 rounded-lg hover:border-[#2bee6c] hover:bg-[#2bee6c]/5 transition-all text-center group"
