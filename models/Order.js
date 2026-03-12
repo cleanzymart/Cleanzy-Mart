@@ -184,7 +184,7 @@ class Order {
   // Get order tracking history
   static async getTrackingHistory(orderId) {
     const [rows] = await pool.execute(
-      'SELECT * FROM order_tracking WHERE order_id = ? ORDER BY created_at ASC',
+      'SELECT * FROM order_tracking WHERE order_id = ?',
       [orderId]
     );
     return rows;
