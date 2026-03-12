@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom'; // useLocation add කරන්න
+// add useLocation
+import { useNavigate, useLocation } from 'react-router-dom';
 import { ordersAPI, apiUtils } from '../../services/api';
 import toast from 'react-hot-toast';
 
 const OwnerOrders = () => {
   const navigate = useNavigate();
-  const location = useLocation(); // URL params ගන්න
+  const location = useLocation(); // get URL params
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
@@ -208,5 +209,6 @@ const OwnerOrders = () => {
     </div>
   );
 };
+
 
 export default OwnerOrders;
