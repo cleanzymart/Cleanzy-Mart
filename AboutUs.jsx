@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen bg-[#f6f8f6] text-[#111813]">
       {/* TopNavBar - Same as Home page */}
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200">
+      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-201">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-4">
@@ -23,7 +23,7 @@ const AboutUs = () => {
               <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#services">Services</a>
               <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#pricing">Pricing</a>
               <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#how-it-works">How It Works</a>
-              <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#contact">Contact</a>
+              <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#contact">Contacts</a>
             </div>
             
             <div className="flex items-center gap-4">
@@ -277,3 +277,4 @@ const AboutUs = () => {
 
 
 export default AboutUs;
+
