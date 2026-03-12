@@ -64,3 +64,177 @@ To learn React itself, check out the [React documentation](https://reactjs.org/)
 
 ## 🛒 Project Name: Cleanzy-Mart
 
+
+cleanzymart
+├─ backend
+│  ├─ .env
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ server.js
+│  └─ src
+│     ├─ config
+│     │  └─ database.js
+│     ├─ controllers
+│     │  └─ authController.js
+│     ├─ middleware
+│     │  └─ auth.js
+│     ├─ models
+│     │  └─ User.js
+│     ├─ routes
+│     │  └─ authRoutes.js
+│     └─ utils
+│        └─ validation.js
+├─ cleanzy_mart.sql
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ public
+│  ├─ favicon.ico
+│  ├─ images
+│  │  ├─ Aboutus.jpg
+│  │  ├─ man-holding-pile-clean-clothes.jpg
+│  │  └─ Wash & Fold, Dry Cleaning.jpg
+│  ├─ index.html
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ README.md
+├─ src
+│  ├─ App.css
+│  ├─ App.js
+│  ├─ App.test.js
+│  ├─ components
+│  │  ├─ auth
+│  │  │  ├─ AuthLayout.jsx
+│  │  │  ├─ LoginForm.jsx
+│  │  │  └─ SignupForm.jsx
+│  │  ├─ common
+│  │  │  ├─ Button.jsx
+│  │  │  ├─ Footer.jsx
+│  │  │  ├─ InputField.jsx
+│  │  │  └─ Navbar.jsx
+│  │  ├─ payment
+│  │  │  └─ CardDetailsModal.jsx
+│  │  └─ ui
+│  ├─ index.css
+│  ├─ index.js
+│  ├─ pages
+│  │  ├─ AboutUs.jsx
+│  │  ├─ auth
+│  │  │  ├─ ForgotPassword.jsx
+│  │  │  ├─ Login.jsx
+│  │  │  └─ Signup.jsx
+│  │  ├─ Booking.jsx
+│  │  ├─ Checkout.jsx
+│  │  ├─ ContactUs.jsx
+│  │  ├─ dashboard
+│  │  │  ├─ CustomerDashboard.jsx
+│  │  │  └─ OwnerDashboard.jsx
+│  │  ├─ Home.jsx
+│  │  ├─ HowItWorks.jsx
+│  │  ├─ OrderConfirmation.jsx
+│  │  ├─ Orders.jsx
+│  │  ├─ Pricing.jsx
+│  │  ├─ Profile.jsx
+│  │  └─ Services.jsx
+│  ├─ reportWebVitals.js
+│  ├─ services
+│  │  └─ api.js
+│  └─ setupTests.js
+└─ tailwind.config.js
+
+```
+```
+cleanzymart
+├─ backend
+│  ├─ .env
+│  ├─ generateHash.js
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ server.js
+│  └─ src
+│     ├─ config
+│     │  └─ database.js
+│     ├─ controllers
+│     │  ├─ authController.js
+│     │  ├─ orderController.js
+│     │  ├─ paymentController.js
+│     │  └─ serviceController.js
+│     ├─ middleware
+│     │  └─ auth.js
+│     ├─ models
+│     │  ├─ Order.js
+│     │  ├─ Payment.js
+│     │  ├─ Service.js
+│     │  └─ User.js
+│     ├─ routes
+│     │  ├─ authRoutes.js
+│     │  ├─ dashboardRoutes.js
+│     │  ├─ orderRoutes.js
+│     │  ├─ paymentRoutes.js
+│     │  ├─ reviewRoutes.js
+│     │  └─ serviceRoutes.js
+│     └─ utils
+│        └─ validation.js
+├─ cleanzy_mart.sql
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ public
+│  ├─ favicon.ico
+│  ├─ images
+│  │  ├─ Aboutus.jpg
+│  │  ├─ man-holding-pile-clean-clothes.jpg
+│  │  └─ Wash & Fold, Dry Cleaning.jpg
+│  ├─ index.html
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ README.md
+├─ src
+│  ├─ App.css
+│  ├─ App.js
+│  ├─ App.test.js
+│  ├─ components
+│  │  ├─ auth
+│  │  │  ├─ AuthLayout.jsx
+│  │  │  ├─ LoginForm.jsx
+│  │  │  └─ SignupForm.jsx
+│  │  ├─ common
+│  │  │  ├─ Button.jsx
+│  │  │  ├─ Footer.jsx
+│  │  │  ├─ InputField.jsx
+│  │  │  └─ Navbar.jsx
+│  │  ├─ payment
+│  │  │  └─ CardDetailsModal.jsx
+│  │  ├─ reviews
+│  │  │  ├─ MyReviews.jsx
+│  │  │  └─ ReviewForm.jsx
+│  │  └─ ui
+│  ├─ index.css
+│  ├─ index.js
+│  ├─ pages
+│  │  ├─ AboutUs.jsx
+│  │  ├─ auth
+│  │  │  ├─ ForgotPassword.jsx
+│  │  │  ├─ Login.jsx
+│  │  │  └─ Signup.jsx
+│  │  ├─ Booking.jsx
+│  │  ├─ Checkout.jsx
+│  │  ├─ ContactUs.jsx
+│  │  ├─ dashboard
+│  │  │  ├─ CustomerDashboard.jsx
+│  │  │  ├─ OwnerDashboard.jsx
+│  │  │  └─ OwnerReviews.jsx
+│  │  ├─ Home.jsx
+│  │  ├─ HowItWorks.jsx
+│  │  ├─ OrderConfirmation.jsx
+│  │  ├─ Orders.jsx
+│  │  ├─ Pricing.jsx
+│  │  ├─ Profile.jsx
+│  │  └─ Services.jsx
+│  ├─ reportWebVitals.js
+│  ├─ services
+│  │  └─ api.js
+│  └─ setupTests.js
+└─ tailwind.config.js
+
+```
