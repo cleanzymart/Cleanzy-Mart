@@ -1,20 +1,29 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const ServiceController = require('../controllers/serviceController');
-const authMiddleware = require('../middleware/auth');
+const ServiceController = require("../controllers/serviceController");
+const authMiddleware = require("../middleware/auth");
 
-// Public routes
-router.get('/', ServiceController.getAllServices);
-router.get('/:id', ServiceController.getService);
-router.get('/category/:category', ServiceController.getServicesByCategory);
+// Get all services (public)
+router.get("/", async (req, res) => {
+  let connection;
+  try {
+    connection = await pool.getConnection();
 
-// Protected routes
-router.use(authMiddleware.protect);
+    const [services] = await connection.execute(
+      "SELECT * FROM services WHERE is_active = TRUE ORDER BY category, name",
+    );
 
-// Owner only routes
-router.post('/', ServiceController.createService);
-router.put('/:id', ServiceController.updateService);
-router.delete('/:id', ServiceController.deleteService);
-router.get('/stats/all', ServiceController.getServiceStats);
-
-module.exports = router;
+    res.json({
+      success: true,
+      data: { services },
+    });
+  } catch (error) {
+    console.error("Get services error:", error);
+    res.status(500).json({
+      success: false,
+      error: error.message,
+    });
+  } finally {
+    if (connection) connection.release();
+  }
+});
