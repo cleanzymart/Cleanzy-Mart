@@ -47,7 +47,7 @@ const CustomerDashboard = () => {
           {/* Page Heading */}
           <div className="flex flex-wrap justify-between gap-3">
             <p className="text-[#111813] text-4xl font-black leading-tight tracking-[-0.033em] min-w-72">
-              Hello, Jane Doe
+              Hello, Ginuka Wadugedara
             </p>
           </div>
 
@@ -63,8 +63,9 @@ const CustomerDashboard = () => {
                 <div className="rounded-xl shadow-[0_4px_12px_rgba(0,0,0,0.05)] bg-white p-4">
                   <div className="flex flex-col lg:flex-row lg:items-start gap-4">
                     {/* Order Image */}
-                    <div className="w-full lg:w-1/3 bg-center bg-no-repeat aspect-video lg:aspect-square bg-cover rounded-lg bg-gray-100 flex items-center justify-center">
-                      <span className="text-gray-400 text-sm">Laundry Image</span>
+                    <div 
+                       className="w-full lg:w-1/3 bg-center bg-no-repeat aspect-video lg:aspect-square bg-cover rounded-lg"
+                       style={{backgroundImage: 'url("/images/Wash & Fold, Dry Cleaning.jpg")'}}>
                     </div>
                     
                     {/* Order Details */}
@@ -144,22 +145,22 @@ const CustomerDashboard = () => {
                       </thead>
                       <tbody className="divide-y divide-gray-200">
                         <tr className="hover:bg-gray-50 transition-colors">
-                          <td className="px-6 py-4 text-gray-900">Oct 28, 2023</td>
+                          <td className="px-6 py-4 text-gray-900">Oct 28, 2025</td>
                           <td className="px-6 py-4 text-gray-500">CZM-12321</td>
                           <td className="px-6 py-4 text-gray-900">Wash & Fold</td>
-                          <td className="px-6 py-4 text-gray-900 text-right">$35.50</td>
+                          <td className="px-6 py-4 text-gray-900 text-right">LKR 2500.00</td>
                         </tr>
                         <tr className="hover:bg-gray-50 transition-colors">
-                          <td className="px-6 py-4 text-gray-900">Oct 15, 2023</td>
+                          <td className="px-6 py-4 text-gray-900">Oct 15, 2025</td>
                           <td className="px-6 py-4 text-gray-500">CZM-12289</td>
                           <td className="px-6 py-4 text-gray-900">Dry Cleaning</td>
-                          <td className="px-6 py-4 text-gray-900 text-right">$52.00</td>
+                          <td className="px-6 py-4 text-gray-900 text-right">LKR 4500.00</td>
                         </tr>
                         <tr className="hover:bg-gray-50 transition-colors">
-                          <td className="px-6 py-4 text-gray-900">Sep 30, 2023</td>
+                          <td className="px-6 py-4 text-gray-900">Sep 30, 2025</td>
                           <td className="px-6 py-4 text-gray-500">CZM-12250</td>
                           <td className="px-6 py-4 text-gray-900">Wash & Fold</td>
-                          <td className="px-6 py-4 text-gray-900 text-right">$29.75</td>
+                          <td className="px-6 py-4 text-gray-900 text-right">LKR 3500.00</td>
                         </tr>
                       </tbody>
                     </table>

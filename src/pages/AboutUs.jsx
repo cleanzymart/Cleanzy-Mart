@@ -20,8 +20,9 @@ const AboutUs = () => {
             
             <div className="hidden md:flex flex-1 justify-center items-center gap-9">
               <Link to="/" className="text-sm font-medium hover:text-[#2bee6c] transition-colors">Home</Link>
-              <Link to="/about" className="text-sm font-medium hover:text-[#2bee6c] transition-colors">About Us</Link>
               <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#services">Services</a>
+              <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#pricing">Pricing</a>
+              <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#how-it-works">How It Works</a>
               <a className="text-sm font-medium hover:text-[#2bee6c] transition-colors" href="#contact">Contact</a>
             </div>
             
@@ -48,7 +49,11 @@ const AboutUs = () => {
               Where traditional cleanliness meets modern convenience. We're transforming the way Sri Lanka thinks about laundry.
             </p>
             <div className="w-full max-w-4xl mx-auto h-64 bg-gray-200 rounded-xl flex items-center justify-center">
-              <span className="text-gray-500">Clean laundry service image</span>
+              <img 
+                className="w-full max-w-4xl rounded-xl object-cover h-64" 
+                src="/images/Aboutus.jpg"  
+                alt="Clean laundry service" 
+              />
             </div>
           </div>
         </section>
@@ -252,7 +257,7 @@ const AboutUs = () => {
               <h3 className="font-bold mb-4">Contact</h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>support@cleanzymart.com</li>
-                <li>(555) 123-4567</li>
+                <li>(+94) 77-4562541</li>
               </ul>
             </div>
           </div>

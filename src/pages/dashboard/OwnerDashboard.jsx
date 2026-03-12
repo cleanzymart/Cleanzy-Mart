@@ -98,7 +98,7 @@ const OwnerDashboard = () => {
             
             <div className="flex flex-col gap-2 rounded-xl p-6 border border-gray-200/60 bg-white">
               <p className="text-gray-600 text-base font-medium leading-normal">Weekly Revenue</p>
-              <p className="text-gray-900 tracking-light text-3xl font-bold leading-tight">$2,150</p>
+              <p className="text-gray-900 tracking-light text-3xl font-bold leading-tight">LKR 400,000.00</p>
               <p className="text-green-600 text-sm font-medium leading-normal">+1.8%</p>
             </div>
             
@@ -131,9 +131,9 @@ const OwnerDashboard = () => {
                   <tbody>
                     <tr className="bg-white border-b hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">#CM-1023</td>
-                      <td className="px-6 py-4">Jane Cooper</td>
+                      <td className="px-6 py-4">Amal Janith</td>
                       <td className="px-6 py-4">Wash & Fold</td>
-                      <td className="px-6 py-4">2024-07-28</td>
+                      <td className="px-6 py-4">2025-07-28</td>
                       <td className="px-6 py-4">
                         <span className="inline-flex items-center bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
                           In Process
@@ -148,9 +148,9 @@ const OwnerDashboard = () => {
                     
                     <tr className="bg-white border-b hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">#CM-1022</td>
-                      <td className="px-6 py-4">Robert Fox</td>
+                      <td className="px-6 py-4">Sumith Perera</td>
                       <td className="px-6 py-4">Dry Cleaning</td>
-                      <td className="px-6 py-4">2024-07-27</td>
+                      <td className="px-6 py-4">2025-07-27</td>
                       <td className="px-6 py-4">
                         <span className="inline-flex items-center bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
                           Ready for Pickup
@@ -165,9 +165,9 @@ const OwnerDashboard = () => {
                     
                     <tr className="bg-white border-b hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">#CM-1021</td>
-                      <td className="px-6 py-4">Cody Fisher</td>
+                      <td className="px-6 py-4">Kasun Manawaduge</td>
                       <td className="px-6 py-4">Wash & Fold</td>
-                      <td className="px-6 py-4">2024-07-26</td>
+                      <td className="px-6 py-4">2025-07-26</td>
                       <td className="px-6 py-4">
                         <span className="inline-flex items-center bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
                           Completed
@@ -182,9 +182,9 @@ const OwnerDashboard = () => {
                     
                     <tr className="bg-white hover:bg-gray-50">
                       <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">#CM-1020</td>
-                      <td className="px-6 py-4">Kristin Watson</td>
+                      <td className="px-6 py-4">Dan Fernando</td>
                       <td className="px-6 py-4">Specialty Items</td>
-                      <td className="px-6 py-4">2024-07-29</td>
+                      <td className="px-6 py-4">2025-07-29</td>
                       <td className="px-6 py-4">
                         <span className="inline-flex items-center bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
                           Pending

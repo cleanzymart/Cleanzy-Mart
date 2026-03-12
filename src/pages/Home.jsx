@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Home = () => {
   return (
     <div className="min-h-screen bg-[#f6f8f6] text-[#111813]">
@@ -41,10 +42,10 @@ const Home = () => {
 
       <main className="flex-grow">
         {/* HeroSection */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
           <div className="min-h-[480px] flex flex-col gap-8 bg-cover bg-center bg-no-repeat rounded-xl items-center justify-center text-center px-4 py-10 md:px-10"
             style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://images.unsplash.com/photo-1582735689256-cc447dae1477?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80")`
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170")`
             }}
           >
             <div className="flex flex-col gap-4 max-w-2xl">
@@ -209,7 +210,7 @@ const Home = () => {
               <h3 className="font-bold mb-4">Contact</h3>
               <ul className="space-y-2 text-sm text-[#61896f]">
                 <li>support@cleanzymart.com</li>
-                <li>(555) 123-4567</li>
+                <li>(+94) 77-4562541</li>
               </ul>
               <div className="flex space-x-4 mt-4">
                 <a className="text-[#61896f] hover:text-[#2bee6c] transition-colors" href="#">
@@ -227,7 +228,7 @@ const Home = () => {
           </div>
 
           <div className="mt-8 border-t border-[#f0f4f2] pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-[#61896f]">
-            <p>© 2024 Cleanzy Mart. All rights reserved.</p>
+            <p>© 2025 Cleanzy Mart. All rights reserved.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a className="hover:text-[#2bee6c] transition-colors" href="#">Terms of Service</a>
               <a className="hover:text-[#2bee6c] transition-colors" href="#">Privacy Policy</a>
